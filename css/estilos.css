@@ -1,0 +1,23 @@
+
+body {
+	background: #000000;
+	margin    : 0;	
+}
+figure {
+	margin: 0 auto;	
+}
+img{
+	position: relative;
+	-webkit-transition: opacity 10s ease-in-out; 	
+ 	-moz-transition: opacity 10s ease-in-out; 	
+ 	-o-transition: opacity 10s ease-in-out; 	
+ 	transition: opacity 10s ease-in-out;
+ 	opacity: 0;
+ 	width: 100%;
+ 	left: 30%;
+ 	max-width: 500px;
+}
+
+.b-loaded {
+	opacity: 1;	
+}
